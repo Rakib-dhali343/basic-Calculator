@@ -1,0 +1,45 @@
+.container {
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 10px 0px 7px 9px;
+  padding: 0;
+}
+
+.row input {
+    width: 295px;
+    height: 50px;
+    margin: 0; 
+    padding: 5px;
+    border: 1px solid #00ff33;
+    border-radius: 9px;
+    font-size: 30px;
+}
+
+button {
+  margin: 0 3px;
+  padding: 0 5px;
+  height: 50px;
+  width: 70px;
+  border: 1px solid rgb(16, 16, 16);
+  border-radius: 9px;
+  cursor: pointer;
+}
